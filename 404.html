@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>EmotiPapier — redirection…</title>
+    <script>
+      // Astuce standard GitHub Pages SPA : /journal?  →  /?p=/journal
+      (function () {
+        var l = window.location;
+        var chemin = l.pathname + l.search + l.hash;
+        var base = l.pathname.replace(/\/[^/]*$/, "/");
+        l.replace(base + "?p=" + encodeURIComponent(chemin));
+      })();
+    </script>
+  </head>
+  <body>
+    <p style="font-family: sans-serif; padding: 2em">
+      Ouverture d'EmotiPapier…
+      <a href="/" style="color: inherit">Continuer</a>
+    </p>
+  </body>
+</html>
