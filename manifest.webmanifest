@@ -1,0 +1,54 @@
+{
+  "id": "./",
+  "name": "EmotiPapier — Journal émotionnel quotidien",
+  "short_name": "EmotiPapier",
+  "description": "Votre journal émotionnel quotidien. Tout reste sur votre appareil.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F0EEE6",
+  "theme_color": "#F0EEE6",
+  "categories": ["health", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Écran d'urgence",
+      "short_name": "Urgence",
+      "description": "Respiration guidée et ancrage 5-4-3-2-1",
+      "url": "./panique"
+    },
+    {
+      "name": "Nouvelle page du journal",
+      "short_name": "Journal",
+      "url": "./journal"
+    }
+  ]
+}
